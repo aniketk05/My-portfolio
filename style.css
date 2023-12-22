@@ -1,0 +1,410 @@
+.paper{
+    padding: 100px,100px;
+    height: 200px;
+    width: 200px;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paper{
+    border: 5px solid white;
+    position: absolute;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: rgb(59, 59, 109);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(61, 61, 125);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0 0 2rem 0 #0e0101;
+    /* position: sticky; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+nav ul li {
+    margin-left: 3rem;
+    margin-top: 1rem;
+    padding: auto;
+    list-style: none;
+
+}
+
+.left {
+    font-size: 2rem;
+}
+
+#Home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 145px 0;
+
+}
+
+#Home div {
+    width: 30%
+}
+
+.leftsection {
+
+    font-size: 3rem;
+
+
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 50px 0;
+
+
+}
+
+.purple {
+    color: red;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(227, 19, 47);
+    font-size: 1rem;
+}
+
+#element {
+    color: red;
+}
+
+#about {
+    max-width: 90vw;
+    margin: 50px;
+    height: 35rem;
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    /* margin: 50px; */
+}
+
+#about h1 {
+    margin-left: 50px;
+    margin-top: 55px;
+    font-size: 1.9rem;
+}
+
+.aboutsection p {
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-style: italic;
+
+}
+
+#Skills {
+    max-width: 90vw;
+    margin: 50px;
+    height: 50rem;
+    margin-top: 70px;
+}
+/* 
+ /* #Skills hr {
+    width: 1000%;
+    border: 0;
+    background-color: rgb(248, 248, 248);
+    height: 1px;
+   margin: 50px; 
+} */ */
+
+
+#Skills h1 {
+    margin-left: 50px;
+    font-size: 2.5rem;
+}
+
+#Skills h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+    font-size: x-large;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+.skillsection h2 {
+    margin-left: 4.2rem;
+    margin-top: 3rem;
+    font-size: 1.5 rem;
+}
+
+#myProgress {
+    width: 80%;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    background-color: #000000;
+}
+
+#myBar {
+    width: 10%;
+    height: 30px;
+    background-color: #ec2121;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#myProgress1 {
+    width: 80%;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    background-color: #000000;
+}
+
+#myBar1 {
+    width: 10%;
+    height: 30px;
+    background-color: #ec2121;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#myProgress2 {
+    width: 80%;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    background-color: #000000;
+}
+
+#myBar2 {
+    width: 10%;
+    height: 30px;
+    background-color: #ec2121;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#myProgress3 {
+    width: 80%;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    background-color: #000000;
+}
+
+#myBar3 {
+    width: 10%;
+    height: 30px;
+    background-color: #ec2121;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+#myProgress4 {
+    width: 80%;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    background-color: #000000;
+}
+
+#myBar4 {
+    width: 10%;
+    height: 30px;
+    background-color: #ec2121;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+
+/* #project hr {
+    width: 100%;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+    margin: 50px;
+} */
+
+footer {
+    height: auto;
+    background-color: rgb(45, 45, 57);
+    width: 100vw;
+    font-family: "OPen sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.flex h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.flex p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.social li {
+    margin: 0 10px;
+
+}
+
+.social a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.social a:hover i {
+    color: aqua;
+    ;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+
+}
+
+#project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.project-heading {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-heading h3 {
+    font-size: 2.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.project-heading span {
+    color: #f33c3c;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.portfolio-box {
+    width: 330px;
+    padding: 15px;
+    border: 1px solid #eeeeee;
+    margin: 20px;
+
+}
+
+.portfolio-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+@media(max-width:740px) {
+
+    .portfolio-box {
+        width: 90%;
+    }
+}
+
+@media(max-width:550px) {
+
+    .project-heading h3 {
+        font-size: 1.8rem;
+    }
+}
